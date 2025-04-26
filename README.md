@@ -1,6 +1,6 @@
 # Self Supervised Learning in Plant Disease Detection
 ---
-This repository provides the implementation of the paper.  To cite:
+This repository provides the implementation of the paper.
 
 X. Huan, B. Chen, H. Zhou, "Learning Without Labels: A Unified Self-Supervised Approach for Plant Disease Detection" 
 
