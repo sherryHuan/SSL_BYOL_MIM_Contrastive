@@ -56,7 +56,7 @@ To run the project, ensure the following are installed:
      ```bash
      byol_mim_contrastive_epoch85.pth
      ```
-    - Output file:
+     - Output file:
      ```bash
      plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth
      ```
@@ -72,7 +72,7 @@ To run the project, ensure the following are installed:
        ```
      - Input file:
      ```bash
-     byol_mim_contrastive_epoch85.pth
+     plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth
      ```
 
 5. **Feature Space Analysis (t-SNE)**
@@ -80,20 +80,16 @@ To run the project, ensure the following are installed:
      ```bash
      plantVillage_t-SNE.ipynb
      ```
-
+   - Input file:
+     ```bash
+     plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth
+     ```
 6. **Training and Validation Curves**
    - Plot training/validation accuracy and loss:
      ```bash
      plantVillage_training_val_plot.ipynb
      ```
 
-## Output Files
-
-Running the code will generate the output files:
-1. byol_mim_contrastive_epoch85.pth
-
-
-    
 
 ---
 
