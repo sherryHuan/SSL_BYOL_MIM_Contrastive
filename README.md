@@ -1,4 +1,4 @@
-# Self Supervised Learning in Plant Disease Detection
+# Plant Disease Detection using Unified Self-Supervised Learning
 ---
 This repository provides the implementation of the paper.
 
@@ -12,8 +12,6 @@ The dataset used in this study include:
 - [PlantDoc Dataset](https://github.com/pratikkayal/PlantDoc-Dataset)
 - [PlantVillage Dataset](https://github.com/spMohanty/PlantVillage-Dataset)
 
-A sample of the dataset can be found in the data subfolder.
-
 ---       
 
 ## Getting Started
@@ -24,61 +22,65 @@ To run the project, ensure the following are installed:
 - Pytorch 2.2.0
 - NVIDIA GPU with CUDA and CuDNN support (for training speedup)
 
-Install the required libraries using the provided `requirements.txt`:
-```bash
-pip install -r requirements.txt
-
-```
 ### Running the Code
 
 #### Example Directory Structure
 
-Ensure the input data folder contains:
+## Setup Instructions
 
-../data
+1. **Install Requirements**
+   - Install the necessary Python libraries.
+   - Prepare datasets and create the unlabeled dataset by running:
+     ```bash
+     datasets_library_setup.ipynb
+     ```
 
-    ├── demographics.csv  (contains patient information)
-    
-    ...
-    
-    ├── *.txt          
-           
-Depending on your objective, you can use either:
-- train_classifier for PD detection(2-class)
+2. **Pretraining**
+   - Build and pretrain the SSL model with:
+     ```bash
+     BYOL_MIM_Contrastive_101_model.ipynb
+     ```
 
-```bash
-args = argparse.Namespace(
-    input_data='../data',
-    exp_name='train_classifier',
-    output='train_classifier_conv1D_transformer_then_gru_branch_output'
-)
+3. **Downstream Fine-Tuning and Evaluation**
+   - Fine-tune and evaluate on the PlantDoc dataset:
+     ```bash
+     plantDoc_downstream_classification.ipynb
+     ```
+   - Fine-tune and evaluate on the PlantVillage dataset:
+     ```bash
+     plantVillage_downstream_classification.ipynb
+     ```
 
-```
+4. **Model Interpretability (Grad-CAM)**
+   - Visualize important regions influencing predictions:
+     - Apple Rust Leaf Example:
+       ```bash
+       Apple_rust_leaf_Grad_CAM.ipynb
+       ```
+     - Grape Leaf Black Rot Example:
+       ```bash
+       grape_leaf_black_rot_Grad_CAM.ipynb
+       ```
 
-- train_severity for severity staging (Hoehn and Yahr 4-class)
+5. **Feature Space Analysis (t-SNE)**
+   - Visualize learned feature embeddings:
+     ```bash
+     plantVillage_t-SNE.ipynb
+     ```
 
-```bash
-args = argparse.Namespace(
-    input_data='../data',
-    exp_name='train_severity',
-    output='train_severity_conv1D_transformer_then_gru_branch_output'
-)
+6. **Training and Validation Curves**
+   - Plot training/validation accuracy and loss:
+     ```bash
+     plantVillage_training_val_plot.ipynb
+     ```
 
-```
+---
 
-Output Files
+## Project Overview
 
-Running the code will generate output in the specified folder:
-
-./output
-
-    ├── train_severity_month_day
-        ├── hour_minutes
-            ├── confusion_matrix.csv: Confusion matrix for classification.
-            ├── gt.csv: Ground truth labels for each patient.
-            ├── pred.csv: Predicted labels for each patient.
-            ├── model.json: JSON representation of the trained model.
-            ├── res_pat.csv: Accuracy results by patient.
-            ├── res_seg.csv: Accuracy results by segment.
-            ├── training_i.csv: Training and validation metrics for the i-th fold (i = [1..10]).
-            ├── weights_i.keras: Model weights for the i-th fold (i = [1..10]).
+- **Backbone:** ResNet-101 pretrained on ImageNet
+- **Self-Supervised Objectives:** 
+  - BYOL for global semantic alignment
+  - Masked Image Modeling (MIM) for local structure reconstruction
+  - Contrastive Learning for instance-level discrimination
+- **Loss Function:** Hybrid multi-objective loss combining BYOL, MIM, and InfoNCE objectives
