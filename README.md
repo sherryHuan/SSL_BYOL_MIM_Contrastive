@@ -9,8 +9,8 @@ X. Huan, B. Chen, H. Zhou, "Learning Without Labels: A Unified Self-Supervised A
 ## Dataset
 
 The dataset used in this study include:
-- [PlantDoc Dataset](https://github.com/pratikkayal/PlantDoc-Dataset).
-- [PlantVillage Dataset](https://github.com/spMohanty/PlantVillage-Dataset). 
+- [PlantDoc Dataset](https://github.com/pratikkayal/PlantDoc-Dataset)
+- [PlantVillage Dataset](https://github.com/spMohanty/PlantVillage-Dataset)
 
 A sample of the dataset can be found in the data subfolder.
 
