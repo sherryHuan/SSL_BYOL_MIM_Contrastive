@@ -18,10 +18,6 @@ To run the project, ensure the following are installed:
 - Pytorch 2.2.0
 - NVIDIA GPU with CUDA and CuDNN support (for training speedup)
 
-### Running the Code
-
-#### Example Directory Structure
-
 ## Setup Instructions
 
 1. **Install Requirements**
