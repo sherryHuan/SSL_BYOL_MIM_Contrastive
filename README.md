@@ -31,7 +31,10 @@ To run the project, ensure the following are installed:
      ```bash
      BYOL_MIM_Contrastive_101_model.ipynb
      ```
-
+   - Output file:
+     ```bash
+     byol_mim_contrastive_epoch85.pth
+     ```
 3. **Downstream Fine-Tuning and Evaluation**
    - Classification on the PlantDoc dataset:
      ```bash
