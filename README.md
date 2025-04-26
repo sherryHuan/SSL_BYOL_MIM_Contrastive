@@ -71,9 +71,9 @@ To run the project, ensure the following are installed:
        grape_leaf_black_rot_Grad_CAM.ipynb
        ```
      - Input file:
-      ```bash
-      plantdoc_best_finetuned_byol_mim_contrastive_epoch85.pth1.pth
-      ```
+       ```bash
+       plantdoc_best_finetuned_byol_mim_contrastive_epoch85.pth1.pth
+       ```
 
 5. **Feature Space Analysis (t-SNE)**
    - Visualize learned feature embeddings:
