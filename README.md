@@ -20,8 +20,8 @@ A sample of the dataset can be found in the data subfolder.
 ### Prerequisites
 
 To run the project, ensure the following are installed:
-- Python 3.8
-- TensorFlow and Keras
+- Python 3.10   
+- Pytorch 2.2.0
 - NVIDIA GPU with CUDA and CuDNN support (for training speedup)
 
 Install the required libraries using the provided `requirements.txt`:
