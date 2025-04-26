@@ -40,11 +40,26 @@ To run the project, ensure the following are installed:
      ```bash
      plantDoc_downstream_classification.ipynb
      ```
+     - Input file:
+     ```bash
+     byol_mim_contrastive_epoch85.pth
+     ```
+     - Output file:
+     ```bash
+     plantdoc_best_finetuned_byol_mim_contrastive_epoch85.pth1.pth
+     ```
    - Classification on the PlantVillage dataset:
      ```bash
      plantVillage_downstream_classification.ipynb
      ```
-
+     - Input file:
+     ```bash
+     byol_mim_contrastive_epoch85.pth
+     ```
+    - Output file:
+     ```bash
+     plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth
+     ```
 4. **Model Interpretability (Grad-CAM)**
    - Visualize important regions influencing predictions:
      - Apple Rust Leaf Example:
@@ -55,6 +70,10 @@ To run the project, ensure the following are installed:
        ```bash
        grape_leaf_black_rot_Grad_CAM.ipynb
        ```
+     - Input file:
+     ```bash
+     byol_mim_contrastive_epoch85.pth
+     ```
 
 5. **Feature Space Analysis (t-SNE)**
    - Visualize learned feature embeddings:
