@@ -5,9 +5,7 @@ This repository provides the implementation of the paper.
 X. Huan, B. Chen, H. Zhou, "Learning Without Labels: A Unified Self-Supervised Approach for Plant Disease Detection" 
 
 ---
-
 ## Dataset
-
 The dataset used in this study include:
 - [PlantDoc Dataset](https://github.com/pratikkayal/PlantDoc-Dataset)
 - [PlantVillage Dataset](https://github.com/spMohanty/PlantVillage-Dataset)
