@@ -85,7 +85,7 @@ To run the project, ensure the following are installed:
        plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth
        ```
 6. **Training and Validation Curves**
-   - Plot training/validation accuracy and loss:
+   - Plot training/validation accuracy and loss from results of plantVillage_downstream_classification.ipynb:
      ```bash
      plantVillage_training_val_plot.ipynb
      ```
