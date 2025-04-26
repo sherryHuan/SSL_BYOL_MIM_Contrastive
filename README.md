@@ -34,11 +34,11 @@ To run the project, ensure the following are installed:
      ```
 
 3. **Downstream Fine-Tuning and Evaluation**
-   - Fine-tune and evaluate on the PlantDoc dataset:
+   - Classification on the PlantDoc dataset:
      ```bash
      plantDoc_downstream_classification.ipynb
      ```
-   - Fine-tune and evaluate on the PlantVillage dataset:
+   - Classification on the PlantVillage dataset:
      ```bash
      plantVillage_downstream_classification.ipynb
      ```
