@@ -64,6 +64,7 @@ To run the project, ensure the following are installed:
      ```bash
      plantVillage_training_val_plot.ipynb
      ```
+
 ## Output Files
 
 Running the code will generate the output files:
