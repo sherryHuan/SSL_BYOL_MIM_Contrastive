@@ -21,7 +21,6 @@ To run the project, ensure the following are installed:
 ## Setup Instructions
 
 1. **Install Requirements**
-   - Install the necessary Python libraries.
    - Prepare datasets and create the unlabeled dataset by running:
      ```bash
      datasets_library_setup.ipynb
@@ -68,11 +67,3 @@ To run the project, ensure the following are installed:
 
 ---
 
-## Project Overview
-
-- **Backbone:** ResNet-101 pretrained on ImageNet
-- **Self-Supervised Objectives:** 
-  - BYOL for global semantic alignment
-  - Masked Image Modeling (MIM) for local structure reconstruction
-  - Contrastive Learning for instance-level discrimination
-- **Loss Function:** Hybrid multi-objective loss combining BYOL, MIM, and InfoNCE objectives
