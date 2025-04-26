@@ -11,10 +11,8 @@ The dataset used in this study include:
 - [PlantVillage Dataset](https://github.com/spMohanty/PlantVillage-Dataset)
 
 ---       
-
 ## Getting Started
 ### Prerequisites
-
 To run the project, ensure the following are installed:
 - Python 3.10   
 - Pytorch 2.2.0
