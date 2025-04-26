@@ -68,7 +68,7 @@ To run the project, ensure the following are installed:
 ## Output Files
 
 Running the code will generate the output files:
-byol_mim_contrastive_epoch85.pth
+1. byol_mim_contrastive_epoch85.pth
 
 
     
