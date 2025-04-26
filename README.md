@@ -18,7 +18,7 @@ To run the project, ensure the following are installed:
 - Pytorch 2.2.0
 - NVIDIA GPU with CUDA and CuDNN support (for training speedup)
 
-## Setup Instructions
+## Files in src folder
 
 1. **Install Requirements**
    - Prepare datasets and create the unlabeled dataset by running:
