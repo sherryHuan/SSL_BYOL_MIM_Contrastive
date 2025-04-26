@@ -72,7 +72,7 @@ To run the project, ensure the following are installed:
        ```
      - Input file:
      ```bash
-     plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth
+     plantdoc_best_finetuned_byol_mim_contrastive_epoch85.pth1.pth
      ```
 
 5. **Feature Space Analysis (t-SNE)**
