@@ -17,6 +17,13 @@ To run the project, ensure the following are installed:
 - Pytorch 2.2.0
 - NVIDIA GPU with CUDA and CuDNN support (for training speedup)
 
+## Output: Pretrained Models
+You can download the pretrained models here:
+
+- [byol_mim_contrastive_epoch85.pth](https://drive.google.com/file/d/1VubUCwEF2W9CgI_2SKQloLtDzkrfwSVC/view?usp=sharing): Self-supervised pretrained model.
+- [plantdoc_best_finetuned_byol_mim_contrastive_epoch85.pth1.pth](https://drive.google.com/file/d/1LiMHRE4pDQ9-pbMNlwHE9YiuokctUNDn/view?usp=sharing): Fine-tuned model on PlantDoc.
+- [plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth](https://drive.google.com/file/d/1diQCL78KXzptXAlKZjXcF7GFH1KEu7R2/view?usp=sharing): Fine-tuned model on PlantVillage.
+
 ## Files in src folder
 
 1. **Install Requirements**
@@ -24,15 +31,7 @@ To run the project, ensure the following are installed:
      ```bash
      datasets_library_setup.ipynb
      ```
-## Pretrained Models
-
-You can download the pretrained models:
-
-- [byol_mim_contrastive_epoch85.pth](https://drive.google.com/file/d/1VubUCwEF2W9CgI_2SKQloLtDzkrfwSVC/view?usp=sharing): Self-supervised pretrained model.
-- [plantdoc_best_finetuned_byol_mim_contrastive_epoch85.pth1.pth](https://drive.google.com/file/d/1LiMHRE4pDQ9-pbMNlwHE9YiuokctUNDn/view?usp=sharing): Fine-tuned model on PlantDoc.
-- [plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth](https://drive.google.com/file/d/1diQCL78KXzptXAlKZjXcF7GFH1KEu7R2/view?usp=sharing): Fine-tuned model on PlantVillage.
-
-2. **Pretraining Roadmap**
+2. **Pretraining**
    - Build and pretrain the SSL model with:
      ```bash
      BYOL_MIM_Contrastive_101_model.ipynb
@@ -41,7 +40,7 @@ You can download the pretrained models:
      ```bash
      byol_mim_contrastive_epoch85.pth
      ```
-3. ***Downstream Fine-Tuning and Evaluation**
+3. **Downstream Fine-Tuning and Evaluation**
    - Classification on the PlantDoc dataset:
      ```bash
      plantDoc_downstream_classification.ipynb
@@ -95,7 +94,6 @@ You can download the pretrained models:
      ```bash
      plantVillage_training_val_plot.ipynb
      ```
-
 
 ---
 
