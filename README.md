@@ -25,7 +25,14 @@ To run the project, ensure the following are installed:
      ```bash
      datasets_library_setup.ipynb
      ```
+## Pretrained Models
 
+You can download the pretrained models:
+
+- [byol_mim_contrastive_epoch85.pth](https://drive.google.com/file/d/1VubUCwEF2W9CgI_2SKQloLtDzkrfwSVC/view?usp=sharing): Self-supervised pretrained model.
+- `plantdoc_best_finetuned_byol_mim_contrastive_epoch85.pth1.pth`: Fine-tuned model on PlantDoc.
+- `plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth`: Fine-tuned model on PlantVillage.
+- 
 2. **Pretraining**
    - Build and pretrain the SSL model with:
      ```bash
