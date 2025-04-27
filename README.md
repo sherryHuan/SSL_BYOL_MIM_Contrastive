@@ -9,7 +9,6 @@ X. Huan, B. Chen, H. Zhou, "Learning Without Labels: A Unified Self-Supervised A
 The dataset used in this study include:
 - [PlantDoc Dataset](https://github.com/pratikkayal/PlantDoc-Dataset)
 - [PlantVillage Dataset](https://github.com/spMohanty/PlantVillage-Dataset)
-
 ---       
 ## Getting Started
 ### Prerequisites
@@ -32,7 +31,7 @@ You can download the pretrained models:
 - [byol_mim_contrastive_epoch85.pth](https://drive.google.com/file/d/1VubUCwEF2W9CgI_2SKQloLtDzkrfwSVC/view?usp=sharing): Self-supervised pretrained model.
 - [plantdoc_best_finetuned_byol_mim_contrastive_epoch85.pth1.pth](https://drive.google.com/file/d/1LiMHRE4pDQ9-pbMNlwHE9YiuokctUNDn/view?usp=sharing): Fine-tuned model on PlantDoc.
 - [plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth](https://drive.google.com/file/d/1diQCL78KXzptXAlKZjXcF7GFH1KEu7R2/view?usp=sharing): Fine-tuned model on PlantVillage.
-- 
+
 2. **Pretraining**
    - Build and pretrain the SSL model with:
      ```bash
