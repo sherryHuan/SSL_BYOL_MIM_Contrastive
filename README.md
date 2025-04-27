@@ -14,7 +14,7 @@ The dataset used in this study include:
 ### Prerequisites
 To run the project, ensure the following are installed:
 - Python 3.10   
-- Pytorch 2.2.0
+- Pytorch 2.1
 - NVIDIA GPU with CUDA and CuDNN support (for training speedup)
 
 
