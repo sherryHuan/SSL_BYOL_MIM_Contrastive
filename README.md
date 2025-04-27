@@ -32,7 +32,7 @@ You can download the pretrained models:
 - [plantdoc_best_finetuned_byol_mim_contrastive_epoch85.pth1.pth](https://drive.google.com/file/d/1LiMHRE4pDQ9-pbMNlwHE9YiuokctUNDn/view?usp=sharing): Fine-tuned model on PlantDoc.
 - [plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth](https://drive.google.com/file/d/1diQCL78KXzptXAlKZjXcF7GFH1KEu7R2/view?usp=sharing): Fine-tuned model on PlantVillage.
 
-2. **Pretraining**
+2. **Pretraining Roadmap**
    - Build and pretrain the SSL model with:
      ```bash
      BYOL_MIM_Contrastive_101_model.ipynb
@@ -41,7 +41,7 @@ You can download the pretrained models:
      ```bash
      byol_mim_contrastive_epoch85.pth
      ```
-3. **Downstream Fine-Tuning and Evaluation**
+3. ***Downstream Fine-Tuning and Evaluation**
    - Classification on the PlantDoc dataset:
      ```bash
      plantDoc_downstream_classification.ipynb
