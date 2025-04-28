@@ -35,7 +35,7 @@ To run the project, ensure the following are installed:
      byol_mim_contrastive_epoch85.pth
      ```
 ## Output: Pretrained Models
-You can download the pretrained models here:
+You can download the pretrained models here for the following programs:
 
 - [byol_mim_contrastive_epoch85.pth](https://drive.google.com/file/d/1VubUCwEF2W9CgI_2SKQloLtDzkrfwSVC/view?usp=sharing): Self-supervised pretrained model.
 - [plantdoc_best_finetuned_byol_mim_contrastive_epoch85.pth1.pth](https://drive.google.com/file/d/1LiMHRE4pDQ9-pbMNlwHE9YiuokctUNDn/view?usp=sharing): Fine-tuned model on PlantDoc.
