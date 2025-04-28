@@ -34,6 +34,12 @@ To run the project, ensure the following are installed:
      ```bash
      byol_mim_contrastive_epoch85.pth
      ```
+## Output: Pretrained Models
+You can download the pretrained models here:
+
+- [byol_mim_contrastive_epoch85.pth](https://drive.google.com/file/d/1VubUCwEF2W9CgI_2SKQloLtDzkrfwSVC/view?usp=sharing): Self-supervised pretrained model.
+- [plantdoc_best_finetuned_byol_mim_contrastive_epoch85.pth1.pth](https://drive.google.com/file/d/1LiMHRE4pDQ9-pbMNlwHE9YiuokctUNDn/view?usp=sharing): Fine-tuned model on PlantDoc.
+- [plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth](https://drive.google.com/file/d/1diQCL78KXzptXAlKZjXcF7GFH1KEu7R2/view?usp=sharing): Fine-tuned model on PlantVillage.
 3. **Downstream Fine-Tuning and Evaluation**
    - Classification on the PlantDoc dataset:
      ```bash
@@ -88,11 +94,5 @@ To run the project, ensure the following are installed:
      ```bash
      plantVillage_training_val_plot.ipynb
      ```
-## Output: Pretrained Models
-You can download the pretrained models here:
-
-- [byol_mim_contrastive_epoch85.pth](https://drive.google.com/file/d/1VubUCwEF2W9CgI_2SKQloLtDzkrfwSVC/view?usp=sharing): Self-supervised pretrained model.
-- [plantdoc_best_finetuned_byol_mim_contrastive_epoch85.pth1.pth](https://drive.google.com/file/d/1LiMHRE4pDQ9-pbMNlwHE9YiuokctUNDn/view?usp=sharing): Fine-tuned model on PlantDoc.
-- [plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth](https://drive.google.com/file/d/1diQCL78KXzptXAlKZjXcF7GFH1KEu7R2/view?usp=sharing): Fine-tuned model on PlantVillage.
 ---
 
