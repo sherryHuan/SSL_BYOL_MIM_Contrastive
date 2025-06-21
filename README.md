@@ -55,7 +55,7 @@ You can download the generated models here for the following programs:
      ```
    - Classification on the PlantVillage dataset:
      ```bash
-     plantVillage_downstream_classification.ipynb
+     plantVillage_downstream_classification_plot.ipynb
      ```
      - Input file:
      ```bash
@@ -89,10 +89,4 @@ You can download the generated models here for the following programs:
      ```bash
      plantvillage_best_finetuned_byol_mim_contrastive_epoch85.pth.pth
      ```
-6. **Training and Validation Curves**
-   - Plot training/validation accuracy and loss from results of plantVillage_downstream_classification.ipynb:
-     ```bash
-     plantVillage_training_val_plot.ipynb
-     ```
----
 
