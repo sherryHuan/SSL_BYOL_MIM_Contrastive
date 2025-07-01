@@ -2,7 +2,7 @@
 ---
 This repository provides the implementation of the paper.
 
-X. Huan, B. Chen, H. Zhou, "Learning Without Labels: A Unified Self-Supervised Approach for Plant Disease Detection" 
+X. Huan, B. Chen, H. Zhou, "A Unified Self-Supervised Learning Framework for Plant Disease Detection" 
 
 ---
 ## Dataset
